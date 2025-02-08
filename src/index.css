@@ -84,7 +84,7 @@ textarea:focus {
   animation: slideIn 0.3s ease-in-out;
   box-shadow: 0 0 10px rgba(0,0,0,0.7);
 }
-
+/*Slidein animation  */
 @keyframes slideIn {
   from {
     opacity: 0;
