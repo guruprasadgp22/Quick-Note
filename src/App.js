@@ -3,6 +3,7 @@ import { nanoid } from 'nanoid';
 import NotesList from './components/NotesList';
 import Search from './components/Search';
 
+// main control function
 const App = () => {
 	const [notes, setNotes] = useState([]);
 	const [searchText, setSearchText] = useState('');
